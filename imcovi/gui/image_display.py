@@ -1,6 +1,6 @@
 from tkinter import Tk, PhotoImage, Canvas, CENTER, Event
-import KEY_BINDING
-KEYS = KEY_BINDING.KEY_BIND
+import imcovi.gui.KEY_BINDING
+KEYS = imcovi.gui.KEY_BINDING.KEY_BIND
 
 class DynamicImage(object):        
 

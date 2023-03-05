@@ -1,6 +1,6 @@
 import argparse
 import os
-from image_display import ImageAPI
+from imcovi.gui.image_display import ImageAPI
 
 parser = argparse.ArgumentParser()
 parser.add_argument('images_folder', help='path to the folder containing the images to compare')
